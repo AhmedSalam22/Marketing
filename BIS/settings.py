@@ -34,16 +34,13 @@ INSTALLED_APPS = [
     # my_app
     'home',
     'projects',
-    'sole_proprietorship',
-    'new_partner_admission', 
-    'result' , 
-    
+   
 
     # pip installed app
     # 'crispy_forms',
     # 'tellme',
-    'django_filters',
-    'extra_views',
+    # 'django_filters',
+    # 'extra_views',
     # CMS
     # 'django.contrib.sites',
     # 'cms',
