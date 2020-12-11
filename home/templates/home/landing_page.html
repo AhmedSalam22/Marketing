@@ -1,0 +1,137 @@
+{% load static%}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>BIS{% block title %} {% endblock %}</title>
+    
+    <link rel="stylesheet" href="{% static 'home/bootstrap/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'home/css/styles.min.css' %}">
+    <!-- tellme for feedback -->
+    {% comment %} <link href="{% static 'tellme/feedback.min.css' %}" rel="stylesheet"> {% endcomment %}
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    {% block css %} {% endblock %}
+    {% block javascript_top %} {% endblock %}
+</head>
+
+<body id="page-top">
+    <nav class="navbar navbar-light navbar-expand bg-light navigation-clean">
+        <div class="container"><a class="navbar-brand" href="#"><strong>AYBA</strong></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"></button>
+            <div class="collapse navbar-collapse" id="navcol-1"><a class="btn btn-primary ml-auto" role="button" href="#">GO To Main Project</a></div>
+        </div>
+    </nav>
+    <header class="masthead text-white text-center" style="background:url('/bg-masthead.jpg')no-repeat center center;background-size:cover;">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-9 mx-auto">
+                    <h1 class="mb-5">Let's Us Know about You!</h1>
+                </div>
+                <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+                    <form>
+                        <div class="form-row">
+                            <div class="col-12 col-md-3"><button class="btn btn-primary btn-block btn-lg" type="submit">Submit</button></div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="features-icons bg-light text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3">
+                        <div class="d-flex features-icons-icon"><i class="icon-loop m-auto text-primary" data-bs-hover-animate="pulse"></i></div>
+                        <h3>Automate</h3>
+                        <p class="lead mb-0">let computer do the routine work for you!</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3">
+                        <div class="d-flex features-icons-icon"><i class="fas fa-cogs m-auto text-primary" data-bs-hover-animate="pulse"></i></div>
+                        <h3>Customaize</h3>
+                        <p class="lead mb-0">You can choose the settings that you want</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3">
+                        <div class="d-flex features-icons-icon"><i class="icon-check m-auto text-primary" data-bs-hover-animate="pulse"></i></div>
+                        <h3>Easy to Use</h3>
+                        <p class="lead mb-0">All you have to do is simple ..you upload your file, choose settings and get the result immediately!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="showcase">
+        <div class="container-fluid p-0">
+            <div class="row no-gutters">
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">AYBA -Automate Your Business Activity</h4>
+                            <h6 class="text-muted card-subtitle mb-2">by Ahmed Maher</h6>
+                            <p class="card-text">&nbsp;دع الحاسوب يتكفل بالاعمال الروتنية نيابة عنك فيما يتعلق بتحليل البيانات او تحليل الاعمال و الاكسيل و الاستعلام فى قواعد البيانات&nbsp;فلدينا مجموعة رائعة من الادوات الخاصة بتحليل البيانات وتحليل الاعمال فلدينا خلفية تجارية قوية ومجموعة الادوات البرمجية مثل بايثون باالاضافة الى خلفية فى الاحصاء لسنا بحاجة إلى الايدى العاملة المكلفة ..:<br>نظرا لان امكانية المرء محدودة ..بنحتاج شخص خبير مره واحده فقط لتوضيح العملية وكيفية اجرائها وكل الاحتمالات الممكنة أن تحدث خلال عملية معالجة البيانات وكيف يعالج هذه البيانات بالطرق التقليدية ..<br>نعتمد على تكنولوجيا مفتوحة المصدر تكلفة استخدامها زيرو .. لها مجتمع نشط فى حالة لو فيه مشكلة او ليها وثائق سهلة ولذيذة مع بعض من الامثلة ..وليها مشاريع كتير موجودة بحيث نستخدمها كمرجع فى حالة لو فى مشروع بيقدم الحاجة اللى احنا عاوزنها دايما فى حد كان بيفكر فى نفس اللى بتفكر فيه مش محتاج تبداء من الصفر ..يكفى أن تتعلم كيف أن تسير وتصل إلى وجهتك ...<br>الأمر لا يقتصر على الاستخدام مرة واحدة فقط يتم توفير حلول برمجية لاعداد هذه المهام مره اخرى بشكل اوتوماتيك كل ما عليك هو ادخال البيانات او ضبط الاعدادت التى تريدها&nbsp;<br><br><br></p><a class="card-link" href="http://ahmedmahersalam.pythonanywhere.com/">Main Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="testimonials text-center bg-light">
+        <div class="container">
+            <h2 class="mb-5">Our Team</h2>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="mx-auto testimonial-item mb-5 mb-lg-0"><img class="rounded-circle img-fluid mb-3" src="/me.jpg">
+                        <h5>Ahmed Maher</h5>
+                        <p class="font-weight-light mb-0">Student at Business Information System(BIS) - Tanta University</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 my-auto h-100 text-center text-lg-left">
+                    <ul class="list-inline mb-2">
+                        <li class="list-inline-item"></li>
+                        <li class="list-inline-item"><span>⋅</span></li>
+                        <li class="list-inline-item"></li>
+                        <li class="list-inline-item"><span>⋅</span></li>
+                        <li class="list-inline-item"></li>
+                        <li class="list-inline-item"><span>⋅</span></li>
+                        <li class="list-inline-item"></li>
+                    </ul>
+                    <p class="text-muted small mb-4 mb-lg-0">© AYBA (Automate Your Business Activity By Ahmed Maher) 2020. All Rights Reserved.</p>
+                </div>
+                <div class="col-lg-6 my-auto h-100 text-center text-lg-right">
+                    <ul class="list-inline mb-0">
+                        <li class="list-inline-item"><a href="https://www.facebook.com/AYBA0"><i class="fa fa-facebook fa-2x fa-fw"></i></a></li>
+                        <li class="list-inline-item"><a href="#"></a></li>
+                        <li class="list-inline-item"><a href="#"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+            </footer>
+        </div><a class="border rounded d-inline scroll-to-top" href="#page-top"><i class="fas fa-angle-up"></i></a></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.js"></script>
+    <script src="{% static 'home/js/script.min.js'%}"></script>
+    {% block js %} {% endblock %}
+
+    <!-- tellme for feddback -->
+    {% comment %} {%  include 'tellme/js_inc.html' %} {% endcomment %}
+
+
+</body>
+
+</html>
