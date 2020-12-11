@@ -14,6 +14,7 @@ from .models import Info
 
 class InfoView(CreateView):
     model = Info
+    fields = '__all__'
     template_name = 'home/landing_page.html'
     success_url = reverse_lazy("home:home")
 
