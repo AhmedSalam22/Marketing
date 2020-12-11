@@ -5,7 +5,7 @@ from . import views
 app_name = "home"
 urlpatterns = [
     path("" , TemplateView.as_view(template_name = "home/index.html") , name="home") , 
-    path("landing_page" , TemplateView.as_view(template_name = "home/landing_page.html")),
+    path("landing_page" , views.InfoView().as_view()),
     path('accounts/', include('django.contrib.auth.urls')),
     path('register' , views.Register.as_view() , name="register")
 ]
